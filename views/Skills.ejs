@@ -1,36 +1,115 @@
 <%- include("partials/header.ejs") %>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-warning">
-    <div class="container fw-bold">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<%# Technical Skills %>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#">Technical Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#">Technical Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#">Technical Certifications</a>
-                </li>
-            </ul>
+<div class="container">
+    <h3 class="m-5 text-warning" id="techexp">Technical Skills</h3>
+    <div class="row">
+        <div class="col-12"><h6>"Committed to continuous improvement, with a proactive approach to acquiring new skills and staying abreast of industry advancements."</h6></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <!--Start Animated Progress Bar-->
+
+            <div class="border border-success p-3  m-2">
+            <P>HTML</P>
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+              </div>
+            </div>
+            <div class="border border-warning p-3  m-2">
+                <P>Css</P>
+                <div class="progress">
+                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+                  </div>
+                </div>
+
+                <div class="border border-success p-3  m-2">
+                    <P>Bootstrap 5</P>
+                    <div class="progress">
+                        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                      </div>
+                    </div>
+
+
+                    <div class="border border-primary p-3  m-2">
+                        <P>Javascript</P>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 45%">45%</div>
+                          </div>
+                        </div>
+
+
+                        
+           <!--End Animated Progress Bar-->
+        </div>
+        <div class="col-lg-6">
+           <!--Start Animated Progress Bar-->
+
+           <div class="border border-primary p-3  m-2">
+            <P>Jquery</P>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 45%">45%</div>
+              </div>
+            </div>
+            <div class="border border-info p-3 m-2">
+                <P>Node Js</P>
+                <div class="progress">
+                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 42%">42%</div>
+                  </div>
+                </div>
+
+                <div class="border border-danger p-3  m-2">
+                    <P>Express Js</P>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 49%">49%</div>
+                      </div>
+                    </div>
+
+
+                    <div class="border border-warning p-3  m-2">
+                        <P>Git</P>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 35%">35%</div>
+                          </div>
+                        </div>
+
+
+                        
+           <!--End Animated Progress Bar-->
+          
         </div>
     </div>
-</nav>
+</div>
 
 
 
+
+
+<%# Technical Skills Ends %>
+
+
+<div class="container ">
+    <h3 class="m-5 text-warning" id="techexp">Technical Experience</h3>
+    <div class="row">
+        <div class="col">
+           <a href="https://naradmunimedia.com/"><h4> <u>Narad muni media  Pune</u>  </h4></a> 
+           <i>frontend designer January 2020</i>
+                <p> I have successfully completed an internship on “Web
+                    technology in front end designing” in Naradmuni media. During
+                    the Internship, I have been certified for demonstrating good
+                    design skills with self-motivated learning new things. I have
+                    exceeded expectations and was able to complete the project
+                    successfully</p>
+        </div>
+    </div>
+
+</div>
 
 <div class="container">
 
-    <h3 class="m-5">Certifications</h3>
+    <h3 class="m-5 text-warning" id="Certi">Certifications</h3>
     <div class="row">
         <div class="col-sm-4">
             <div class="card bg-warning text-dark d-flex flex-column h-100 mb-3">
@@ -99,3 +178,6 @@
 </div
 
 
+
+
+<%- include("partials/footer.ejs") %>

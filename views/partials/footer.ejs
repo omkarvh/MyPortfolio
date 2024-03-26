@@ -31,3 +31,10 @@
 </div>
 
 
+<script>
+    document.querySelectorAll(".animated-progress span").forEach(function (element) {
+        var progress = element.getAttribute("data-progress");
+        element.style.width = progress + "%";
+        element.textContent = progress + "%";
+    });
+</script>
